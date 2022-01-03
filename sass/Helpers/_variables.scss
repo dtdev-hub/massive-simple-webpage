@@ -1,0 +1,74 @@
+// colors
+$color-black-0: #000000;
+$color-black-1: #1b1b1b;
+$color-black-2: #222222;
+$color-black-3: #333333;
+$color-black-4: #323232;
+$color-black-20: rgba(0, 0, 0, 0.1);
+$color-black-21: rgba(0, 0, 0, 0.5);
+$color-gray-0: #bbb;
+$color-gray-1: #a9a8a8;
+$color-gray-2: #a4a4a4;
+$color-gray-3: #909090;
+$color-gray-4: #7e7e7e;
+$color-gray-5: #777777;
+$color-gray-6: #595959;
+$color-gray-7: #6f7273;
+$color-gray-8: #606060;
+$color-gray-9: #5a5a5a;
+$color-white-0: #ffffff;
+$color-white-1: #f0f0f0;
+$color-white-2: #eaeaea;
+$color-white-20: rgba(255, 255, 255, 0.9);
+$color-yellow-0: #d6b161;
+
+// font sizes
+$fs-0: 16px;
+$fs-1: 10px;
+$fs-2: 12px;
+$fs-3: 13px;
+$fs-4: 14px;
+$fs-5: 15px;
+$fs-6: 18px;
+$fs-7: 20px;
+$fs-8: 26px;
+$fs-9: 30px;
+$fs-10: 60px;
+
+// font-weight
+$fw-0: normal;
+$fw-1: 400;
+$fw-2: 600;
+
+// line-height
+$line-height-0: normal;
+$line-height-1: 1.5;
+$line-height-2: 20px;
+$line-height-3: 25px;
+$line-height-4: 30px;
+$line-height-5: 60px;
+
+// margin
+$mg-0: 5px;
+$mg-1: 10px;
+$mg-2: 12px;
+$mg-3: 15px;
+$mg-4: 20px;
+$mg-5: 30px;
+$mg-6: 31px;
+$mg-7: 50px;
+
+// padding
+$pd-0: 5px;
+$pd-1: 10px;
+$pd-2: 15px;
+$pd-3: 20px;
+$pd-4: 32px;
+
+// break-point
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+);
