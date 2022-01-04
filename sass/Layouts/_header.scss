@@ -1,0 +1,65 @@
+header {
+    position: absolute;
+    z-index: 1200;
+    top: 0;
+    width: 100%;
+    background-color: $color-black-0;
+    .navbar {
+        width: 1190px;
+        transition: background-color 0.3s;
+        .container-fluid {
+            padding-right: $pd-5;
+            padding-left: $pd-5;
+            .menuzord {
+                display: block;
+                position: relative;
+                float: left;
+                width: 100%;
+                padding: 0;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                background: none;
+                .logo-brand {
+                    float: left;
+                    height: 100px;
+                    margin-right: $mg-5;
+                    @include styleText($color-gray-10, $fs-7, $fw-2);
+                    line-height: $line-height-7;
+                    img {
+                        position: relative;
+                        top: -2px;
+                        display: inline-block;
+                        max-height: 100%;
+                        padding: $pd-0 0;
+                        border: none;
+                        height: 96px;
+                        width: auto;
+                    }
+                }
+                .menuzord-menu {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    max-height: 400px;
+                    li {
+                        display: inline-block;
+                        margin-left: $mg-0 - 3;
+                        a {
+                            @include styleText($color-white-0, $fs-3, $fw-0);
+                            display: inline-block;
+                            padding: 0 $pd-3 - 3;
+                            outline: 0;
+                            line-height: $line-height-7;
+                        }
+                        &.active a {
+                            color: $color-yellow-0;
+                        }
+                        &:hover a {
+                            color: $color-yellow-0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -16,6 +16,7 @@ $color-gray-6: #595959;
 $color-gray-7: #6f7273;
 $color-gray-8: #606060;
 $color-gray-9: #5a5a5a;
+$color-gray-10: #666;
 $color-white-0: #ffffff;
 $color-white-1: #f0f0f0;
 $color-white-2: #eaeaea;
@@ -46,7 +47,9 @@ $line-height-1: 1.5;
 $line-height-2: 20px;
 $line-height-3: 25px;
 $line-height-4: 30px;
-$line-height-5: 60px;
+$line-height-5: 50px;
+$line-height-6: 60px;
+$line-height-7: 100px;
 
 // margin
 $mg-0: 5px;
@@ -59,11 +62,13 @@ $mg-6: 31px;
 $mg-7: 50px;
 
 // padding
-$pd-0: 5px;
-$pd-1: 10px;
-$pd-2: 15px;
-$pd-3: 20px;
-$pd-4: 32px;
+$pd-0: 2px;
+$pd-1: 5px;
+$pd-2: 10px;
+$pd-3: 15px;
+$pd-4: 20px;
+$pd-5: 30px;
+$pd-6: 32px;
 
 // break-point
 $breakpoints: (
