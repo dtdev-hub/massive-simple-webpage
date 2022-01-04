@@ -22,7 +22,6 @@ header {
 }
 
 header .navbar {
-  width: 1190px;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
@@ -49,7 +48,7 @@ header .navbar .container-fluid .menuzord .logo-brand {
   margin-right: 30px;
   color: #666;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 100px;
 }
 
@@ -92,5 +91,49 @@ header .navbar .container-fluid .menuzord .menuzord-menu li.active a {
 
 header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #d6b161;
+}
+
+.massiveCarousel {
+  height: 722px;
+  background-image: url("../img/index-banner-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.massiveCarousel .container-mid {
+  position: absolute;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.massiveCarousel .container-mid .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.massiveCarousel .container-mid .container .banner-title {
+  color: #ffffff;
+}
+
+.massiveCarousel .container-mid .container .banner-title h1 {
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.massiveCarousel .container-mid .container .banner-title h3 {
+  letter-spacing: 6px;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */

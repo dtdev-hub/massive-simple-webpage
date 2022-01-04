@@ -1,0 +1,37 @@
+.massiveCarousel {
+    height: 722px;
+    background-image: url("../img/index-banner-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    .container-mid {
+        position: absolute;
+        z-index: 200;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        .container {
+            padding-right: $pd-3;
+            padding-left: $pd-3;
+            margin-right: auto;
+            margin-left: auto;
+            .banner-title {
+                color: $color-white-0;
+                h1 {
+                    font-size: $fs-10;
+                    font-weight: $fw-1;
+                    letter-spacing: 5px;
+                    line-height: normal;
+                    margin-bottom: 0;
+                }
+                h3 {
+                    letter-spacing: 6px;
+                    font-size: $fs-7;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
