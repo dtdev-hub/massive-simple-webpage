@@ -78,7 +78,7 @@
             }
         }
     }
-    .post-parallax {
+    .bodySkills {
         overflow: hidden;
         width: 100% !important;
         height: 100%;
@@ -87,7 +87,7 @@
         background-attachment: fixed;
         background-position: 50% 50%;
         background-size: cover;
-        .massiveIntro__skills {
+        .bodySkills__content {
             display: inline-block;
             width: 100%;
             padding: $pd-7 0;
@@ -109,12 +109,12 @@
                     .light-txt {
                         color: $color-white-0 !important;
                     }
-                    .massiveIntro__skillItemLeft,
-                    .massiveIntro__skillItemRight {
+                    .bodySkills__itemLeft,
+                    .bodySkills__itemRight {
                         padding-right: $pd-5;
                         padding-left: $pd-5;
                     }
-                    .massiveIntro__skillItemLeft {
+                    .bodySkills__itemLeft {
                         .v-middle {
                             display: table;
                             width: 100%;
@@ -132,7 +132,7 @@
                             }
                         }
                     }
-                    .massiveIntro__skillItemRight {
+                    .bodySkills__itemRight {
                         padding: 0 $pd-5;
                         h4 {
                             margin: 0 0 $mg-5 0;

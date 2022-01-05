@@ -248,7 +248,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #7e7e7e;
 }
 
-.body-content .post-parallax {
+.body-content .bodySkills {
   overflow: hidden;
   width: 100% !important;
   height: 100%;
@@ -259,14 +259,14 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background-size: cover;
 }
 
-.body-content .post-parallax .massiveIntro__skills {
+.body-content .bodySkills .bodySkills__content {
   display: inline-block;
   width: 100%;
   padding: 100px 0;
   position: relative;
 }
 
-.body-content .post-parallax .massiveIntro__skills .dark-overlay {
+.body-content .bodySkills .bodySkills__content .dark-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -276,33 +276,33 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.body-content .post-parallax .massiveIntro__skills .container {
+.body-content .bodySkills .bodySkills__content .container {
   position: relative;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row {
+.body-content .bodySkills .bodySkills__content .container .row {
   margin-right: -15px;
   margin-left: -15px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .light-txt {
+.body-content .bodySkills .bodySkills__content .container .row .light-txt {
   color: #ffffff !important;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemLeft,
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft,
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemLeft .v-middle {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle {
   display: table;
   width: 100%;
   height: 400px;
   vertical-align: middle;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemLeft .v-middle h3 {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle h3 {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -313,27 +313,27 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 1.5;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight {
   padding: 0 30px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight h4 {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight h4 {
   margin: 0 0 30px 0;
   font-weight: normal;
   line-height: 1.5;
   letter-spacing: 2px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight p {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight p {
   margin: 0 0 30px;
   line-height: 30px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight .p-top-30 {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 {
   padding-top: 30px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight .p-top-30 .massive-progress {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress {
   overflow: visible;
   height: 20px;
   margin-top: 10px;
@@ -347,7 +347,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   font-weight: 400;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight .p-top-30 .massive-progress .progress-bar {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar {
   width: 80%;
   position: relative;
   overflow: visible;
@@ -364,7 +364,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 20px;
 }
 
-.body-content .post-parallax .massiveIntro__skills .container .row .massiveIntro__skillItemRight .p-top-30 .massive-progress .progress-bar span {
+.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar span {
   position: absolute;
   top: -28px;
   right: -5px;
