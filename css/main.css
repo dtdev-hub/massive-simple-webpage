@@ -1,4 +1,4 @@
-.body-content .bodyIntro .m-bot-80 .heading-title-alt h3 {
+.massiveIntro .m-bot-80 .heading-title-alt h3 {
   letter-spacing: 2px;
   font-weight: normal;
   position: relative;
@@ -11,7 +11,7 @@
   font-size: 24px;
 }
 
-.body-content .bodyIntro .m-bot-80 .heading-title-alt .half-txt {
+.massiveIntro .m-bot-80 .heading-title-alt .half-txt {
   display: inline-block;
   width: 60%;
   margin: 0 auto;
@@ -158,27 +158,21 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   margin-bottom: 0;
 }
 
-.body-content {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.body-content .bodyIntro {
+.massiveIntro {
   display: inline-block;
   width: 100%;
   padding: 100px 0;
 }
 
-.body-content .bodyIntro .m-bot-80 {
+.massiveIntro .m-bot-80 {
   margin-bottom: 80px;
 }
 
-.body-content .bodyIntro .m-bot-80 .heading-title-alt {
+.massiveIntro .m-bot-80 .heading-title-alt {
   margin-bottom: 50px;
 }
 
-.body-content .bodyIntro .m-bot-80 .heading-title-alt h3:after {
+.massiveIntro .m-bot-80 .heading-title-alt h3:after {
   position: absolute;
   bottom: -2px;
   left: 50%;
@@ -189,17 +183,17 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background: #595959;
 }
 
-.body-content .bodyIntro .inline-block {
+.massiveIntro .inline-block {
   display: inline-block;
   width: 100%;
 }
 
-.body-content .bodyIntro .intro__feature {
+.massiveIntro .intro__feature {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box {
+.massiveIntro .intro__feature .feature-border-box {
   position: relative;
   padding: 30px;
   border: 1px solid #e9e9e9;
@@ -208,7 +202,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   transition: all 0.3s ease;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box .icon {
+.massiveIntro .intro__feature .feature-border-box .icon {
   position: absolute;
   top: -30px;
   left: 30px;
@@ -223,18 +217,18 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   padding: 0 0 30px 0;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box .icon i {
+.massiveIntro .intro__feature .feature-border-box .icon i {
   color: #ffffff;
   font-size: 30px;
   line-height: 60px;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box .title {
+.massiveIntro .intro__feature .feature-border-box .title {
   display: inline-block;
   margin-top: 30px;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box .title h4 {
+.massiveIntro .intro__feature .feature-border-box .title h4 {
   color: #333333;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -244,11 +238,11 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   margin-bottom: 20px;
 }
 
-.body-content .bodyIntro .intro__feature .feature-border-box .desc {
+.massiveIntro .intro__feature .feature-border-box .desc {
   color: #7e7e7e;
 }
 
-.body-content .bodySkills {
+.massiveSkills {
   overflow: hidden;
   width: 100% !important;
   height: 100%;
@@ -259,14 +253,14 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background-size: cover;
 }
 
-.body-content .bodySkills .bodySkills__content {
+.massiveSkills .bodySkills__content {
   display: inline-block;
   width: 100%;
   padding: 100px 0;
   position: relative;
 }
 
-.body-content .bodySkills .bodySkills__content .dark-overlay {
+.massiveSkills .bodySkills__content .dark-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -276,33 +270,33 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.body-content .bodySkills .bodySkills__content .container {
+.massiveSkills .bodySkills__content .container {
   position: relative;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row {
+.massiveSkills .bodySkills__content .container .row {
   margin-right: -15px;
   margin-left: -15px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .light-txt {
+.massiveSkills .bodySkills__content .container .row .light-txt {
   color: #ffffff !important;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft,
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemLeft,
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle {
   display: table;
   width: 100%;
   height: 400px;
   vertical-align: middle;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle h3 {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemLeft .v-middle h3 {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -313,27 +307,27 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 1.5;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight {
   padding: 0 30px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight h4 {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight h4 {
   margin: 0 0 30px 0;
   font-weight: normal;
   line-height: 1.5;
   letter-spacing: 2px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight p {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight p {
   margin: 0 0 30px;
   line-height: 30px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 {
   padding-top: 30px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress {
   overflow: visible;
   height: 20px;
   margin-top: 10px;
@@ -347,7 +341,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   font-weight: 400;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar {
   width: 80%;
   position: relative;
   overflow: visible;
@@ -364,7 +358,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 20px;
 }
 
-.body-content .bodySkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar span {
+.massiveSkills .bodySkills__content .container .row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar span {
   position: absolute;
   top: -28px;
   right: -5px;
