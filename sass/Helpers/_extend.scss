@@ -1,0 +1,19 @@
+%h3SectionTitle {
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: $mg-4;
+    padding-bottom: $pd-2;
+    text-transform: uppercase;
+    margin: 0 0 $mg-5 0;
+    color: $color-black-3;
+    line-height: 1.5;
+    font-size: $fs-8 - 2;
+}
+%pSectionTitle {
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+    color: $color-gray-4;
+    line-height: $line-height-3;
+}
