@@ -48,6 +48,9 @@ body {
             }
         }
     }
+    .gray-bg {
+        background: $color-gray-12;
+    }
     .half-txt {
         display: inline-block;
         width: 60%;
@@ -62,13 +65,16 @@ body {
     .m-top-50 {
         margin-top: $mg-7;
     }
+    .m-top-100 {
+        margin-top: $mg-8;
+    }
     .m-bot-0 {
         margin-bottom: 0 !important;
     }
     .m-bot-20 {
         margin-bottom: $mg-4;
     }
-    .m-bot-20 {
+    .m-bot-50 {
         margin-bottom: $mg-7;
     }
 }

@@ -1,0 +1,158 @@
+.massiveTeam {
+    .massiveTeam__member {
+        padding-right: $pd-5;
+        padding-left: $pd-5;
+        .team-member {
+            position: relative;
+            overflow: hidden;
+            .team-img {
+                position: relative;
+                img {
+                    width: 100%;
+                    height: auto;
+                    vertical-align: middle;
+                    border: 0;
+                }
+                .team-intro {
+                    position: absolute;
+                    right: 0;
+                    bottom: 30px;
+                    width: 70%;
+                    padding: $pd-2 $pd-4;
+                    text-align: right;
+                    background: $color-black-22;
+                    color: $color-white-0;
+                    h5,
+                    span {
+                        margin-bottom: 0;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    span {
+                        color: $color-white-21;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .team-hover {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                transition: all 0.3s;
+                opacity: 0;
+                border: 20px solid $color-black-20;
+                background-color: $color-white-20;
+                .desk {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    padding: 0 $pd-4;
+                    transition: all 0.3s 0.2s;
+                    transform: translateY(-55%);
+                    opacity: 0;
+                    h4 {
+                        margin-bottom: $mg-4 + 5;
+                        letter-spacing: 4px;
+                        text-transform: uppercase;
+                        font-size: $fs-4;
+                        text-align: center;
+                        color: $color-black-2;
+                    }
+                    p {
+                        margin: 0 0 $pd-5;
+                        margin-bottom: 0;
+                        @include styleText($color-gray-4, $fs-4, $fw-0);
+                        line-height: $line-height-4;
+                    }
+                }
+                .s-link {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    transition: all 0.3s 0.2s;
+                    transform: translateY(45%);
+                    text-align: center;
+                    opacity: 0;
+                    font-size: $fs-9 + 5;
+                    a {
+                        text-align: center;
+                        color: $color-black-2;
+                        margin: 0 $mg-1;
+                        font-size: $fs-5 + 1;
+                        &:hover {
+                            color: $color-yellow-0;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .team-hover {
+                    opacity: 1;
+                    .desk {
+                        top: 35%;
+                        opacity: 1;
+                    }
+                    .s-link {
+                        bottom: 10%;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .massiveTeam__hiring {
+        padding-right: $pd-5;
+        padding-left: $pd-5;
+        .promo-box {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            padding: 40px;
+            background: $color-gray-12;
+            .promo-info {
+                padding-right: 200px;
+                h4 {
+                    margin: 0 0 $mg-5 0;
+                    @include styleText($color-black-3, $fs-6, $fw-0);
+                    line-height: $line-height-1;
+                    margin-bottom: 0;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    span {
+                        display: inline;
+                        margin-top: 0;
+                        color: $color-yellow-0;
+                    }
+                }
+                span {
+                    display: block;
+                    margin-top: $mg-1;
+                    color: $color-gray-4;
+                }
+            }
+            .promo-btn {
+                position: absolute;
+                top: 50%;
+                right: 40px;
+                margin-top: -28px;
+                a {
+                    padding: $pd-3 $pd-5;
+                    margin-right: 0;
+                    color: $color-white-0;
+                    background: $color-black-2;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    border-radius: 0;
+                    transition: all 0.3s;
+                    &:hover {
+                        background: $color-yellow-0;
+                    }
+                }
+            }
+        }
+    }
+}
