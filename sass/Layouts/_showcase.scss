@@ -1,0 +1,41 @@
+.massiveShowcase {
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+    margin-bottom: 0;
+    .container {
+        .row {
+            margin-right: -$mg-3;
+            margin-left: -$mg-3;
+            .massiveShowcase__top {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: $mg-4;
+            }
+        }
+    }
+    .portfolio-filter {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                margin: 0 $mg-3;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: $color-gray-1;
+                font-size: $fs-4;
+                text-decoration: none;
+            }
+            &:hover a {
+                color: $color-black-0;
+            }
+        }
+        li.active {
+            a {
+                color: $color-black-0;
+            }
+        }
+    }
+}
