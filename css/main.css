@@ -40,8 +40,18 @@ body .page-content {
   padding: 100px 0;
 }
 
+body .light-txt {
+  color: #ffffff;
+}
+
 body .heading-title-alt {
   margin-bottom: 50px;
+}
+
+body .heading-title-alt h1 {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
 body .heading-title-alt h3 {
@@ -78,6 +88,10 @@ body .half-txt {
 body .inline-block {
   display: inline-block;
   width: 100%;
+}
+
+body .m-top-50 {
+  margin-top: 50px;
 }
 
 body .m-bot-0 {
@@ -477,6 +491,31 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #000000;
 }
 
+.massiveHangWithUs {
+  padding: 150px 0;
+  background-image: url("../img/8--gIdSI5.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.massiveHangWithUs .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.massiveHangWithUs .row .heading-title span.heading-sub-title,
+.massiveHangWithUs .row .heading-title-alt span.heading-sub-title {
+  letter-spacing: 3px;
+  font-size: 16px;
+  color: #d6b161;
+}
+
+.massiveHangWithUs .row a {
+  text-decoration: none;
+}
+
 .massiveBlog .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -611,5 +650,25 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
 .massiveBlog .row .post-list-aside .post-single .post-cat {
   padding: 0;
   list-style: none;
+}
+
+.button--yellow {
+  color: #ffffff;
+  background-color: #d6b161;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button--yellow:hover {
+  color: #222222;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

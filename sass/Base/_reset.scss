@@ -15,8 +15,16 @@ body {
         width: 100%;
         padding: 100px 0;
     }
+    .light-txt {
+        color: $color-white-0;
+    }
     .heading-title-alt {
         margin-bottom: $mg-7;
+        h1 {
+            margin-bottom: 0;
+            letter-spacing: 2px;
+            font-weight: $fw-0;
+        }
         h3 {
             margin-bottom: 0;
             letter-spacing: 2px;
@@ -50,6 +58,9 @@ body {
     .inline-block {
         display: inline-block;
         width: 100%;
+    }
+    .m-top-50 {
+        margin-top: $mg-7;
     }
     .m-bot-0 {
         margin-bottom: 0 !important;
