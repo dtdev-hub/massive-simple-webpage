@@ -54,6 +54,9 @@
                     font-size: $fs-9;
                     line-height: $line-height-6;
                 }
+                &:hover {
+                    background: $color-yellow-0;
+                }
             }
             .title {
                 display: inline-block;

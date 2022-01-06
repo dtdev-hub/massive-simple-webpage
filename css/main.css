@@ -114,6 +114,10 @@ body .m-bot-50 {
   margin-bottom: 50px;
 }
 
+body .m-bot-80 {
+  margin-bottom: 80px;
+}
+
 header {
   position: absolute;
   z-index: 1200;
@@ -301,6 +305,10 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #ffffff;
   font-size: 30px;
   line-height: 60px;
+}
+
+.massiveIntro .intro__feature .feature-border-box .icon:hover {
+  background: #d6b161;
 }
 
 .massiveIntro .intro__feature .feature-border-box .title {
