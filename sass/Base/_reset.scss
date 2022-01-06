@@ -28,6 +28,16 @@ body {
             position: relative;
             margin-bottom: $mg-4;
             padding-bottom: $pd-2;
+            &::after {
+                position: absolute;
+                bottom: -2px;
+                left: 50%;
+                width: 60px;
+                height: 2px;
+                margin-left: -$mg-6;
+                content: "";
+                background: $color-gray-6;
+            }
         }
     }
     .half-txt {
@@ -45,6 +55,9 @@ body {
         margin-bottom: 0 !important;
     }
     .m-bot-20 {
-        margin-bottom: 20px;
+        margin-bottom: $mg-4;
+    }
+    .m-bot-20 {
+        margin-bottom: $mg-7;
     }
 }

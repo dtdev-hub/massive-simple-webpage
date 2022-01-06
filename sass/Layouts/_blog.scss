@@ -1,0 +1,116 @@
+.massiveBlog {
+    .row {
+        margin-right: -$mg-3;
+        margin-left: -$mg-3;
+        .post-list-aside {
+            display: inline-block;
+            width: 100%;
+            .massiveBlog__left,
+            .massiveBlog__right {
+                padding-right: $pd-5;
+                padding-left: $pd-5;
+            }
+            .post-single {
+                .post-img {
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border: none;
+                    }
+                }
+                .title-img {
+                    .info {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        padding: $pd-2;
+                        color: $color-white-0;
+                        background: $color-black-21;
+                    }
+                }
+                .post-desk {
+                    position: relative;
+                    height: 309px;
+                    padding: $pd-5 0;
+                    a {
+                        text-decoration: none;
+                        transition: 0.5s;
+                        &:hover {
+                            color: $color-yellow-0;
+                        }
+                    }
+                    ul {
+                        margin-top: 0;
+                        margin-bottom: $mg-1;
+                        li {
+                            display: inline-block;
+                            margin-right: $mg-1;
+                            a {
+                                text-transform: uppercase;
+                                color: $color-gray-3;
+                                font-size: $fs-2;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    h4 {
+                        margin: 0 0 $mg-1 0;
+                        @include styleText($color-black-3, $fs-6, $fw-0);
+                        line-height: 1.5;
+                        a {
+                            color: $color-black-2;
+                            transition: 0.5s;
+                        }
+                    }
+                    .date {
+                        color: $color-gray-3;
+                        font-size: $fs-2;
+                        float: left;
+                        width: 100%;
+                        height: auto;
+                        margin-right: 0;
+                        margin-bottom: $mg-4 + 5;
+                        padding-top: 0;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        background: none;
+                        a.author {
+                            color: $color-gray-3;
+                            font-size: $fs-2;
+                            &:hover {
+                                color: $color-yellow-0;
+                            }
+                        }
+                    }
+                    p {
+                        margin: 0 0 $mg-5;
+                        color: $color-gray-4;
+                        line-height: $line-height-4;
+                    }
+                    .p-read-more {
+                        position: relative;
+                        text-transform: uppercase;
+                        color: $color-gray-0;
+                        letter-spacing: 1px;
+                        i {
+                            position: absolute;
+                            top: 2px;
+                            margin-left: $mg-1;
+                            font-weight: bold;
+                        }
+                        text-decoration: none;
+                        &:hover {
+                            color: $color-black-2;
+                        }
+                    }
+                }
+                .post-cat {
+                    padding: 0;
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
