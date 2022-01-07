@@ -34,6 +34,10 @@ body {
   line-height: 1.5;
 }
 
+body .dark-bg {
+  background: #1b1b1b;
+}
+
 body .page-content {
   display: inline-block;
   width: 100%;
@@ -123,6 +127,10 @@ body .m-bot-50 {
 
 body .m-bot-80 {
   margin-bottom: 80px;
+}
+
+body .p-tb-100 {
+  padding: 100px 0;
 }
 
 header {
@@ -927,6 +935,43 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
 
 .massiveTabs .section-container .section-row .massiveTabs__content .panel-body .tab-pane {
   line-height: 30px;
+}
+
+.massiveNumbers .massiveNumbers__item {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.massiveNumbers .massiveNumbers__item .fun-factor.alt {
+  text-align: center;
+}
+
+.massiveNumbers .massiveNumbers__item .fun-factor.alt .icon {
+  display: inline-block;
+  float: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.massiveNumbers .massiveNumbers__item .fun-factor.alt .icon i {
+  padding-right: 10px;
+  font-size: 36px;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.massiveNumbers .massiveNumbers__item .fun-factor.alt .icon h1 {
+  letter-spacing: 2px;
+  font-size: 36px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.massiveNumbers .massiveNumbers__item .fun-factor.alt .fun-info {
+  display: block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .button--yellow {

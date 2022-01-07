@@ -1,0 +1,33 @@
+.massiveNumbers {
+    .massiveNumbers__item {
+        padding-right: $pd-5;
+        padding-left: $pd-5;
+        .fun-factor.alt {
+            text-align: center;
+            .icon {
+                display: inline-block;
+                float: none;
+                margin-top: 0;
+                margin-bottom: $mg-1;
+                i {
+                    padding-right: $pd-2;
+                    font-size: $fs-11;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    color: $color-white-0;
+                }
+                h1 {
+                    letter-spacing: 2px;
+                    font-size: $fs-11;
+                    display: inline-block;
+                    margin-bottom: 0;
+                }
+            }
+            .fun-info {
+                display: block;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

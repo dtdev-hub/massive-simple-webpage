@@ -10,6 +10,9 @@ body {
     font-size: $fs-5;
     font-weight: $fw-2;
     line-height: $line-height-1;
+    .dark-bg {
+        background: $color-black-1;
+    }
     .page-content {
         display: inline-block;
         width: 100%;
@@ -85,5 +88,8 @@ body {
     }
     .m-bot-80 {
         margin-bottom: $mg-9;
+    }
+    .p-tb-100 {
+        padding: $pd-7 0;
     }
 }
