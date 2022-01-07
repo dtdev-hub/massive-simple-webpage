@@ -21,6 +21,8 @@
         rel="stylesheet">
 
     <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/main.css">
@@ -612,6 +614,62 @@
         </div>
     </section>
 
+    <!-- TESTIMONIAL -->
+    <section class="massiveTestimonial page-content">
+        <div class="container section-container">
+            <div class="row section-row">
+                <div class="massiveTestimonial__content col-md-8 col-md-offset-2">
+                    <div id="testimonial-2" class="owl-carousel owl-theme testimonial__carousel">
+                        <div class="item">
+                            <div class="tst-thumb">
+                                <img class="circle" src="./img/a1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Nam nec dui dolor. Curabitur in laoreet erat. Nam nec dui dolor. Aliquam varius
+                                    dolor nunc, interdum
+                                    commodo justoporttitor vitae. Quisque fermentum purus.
+                                </p>
+                                <div class="testimonial-meta">
+                                    - Kevin Paige -
+                                    <span>ABC</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tst-thumb">
+                                <img class="circle" src="./img/a1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Vestibulum varius fermentum risus vitae lacinia neque auctor nec. Nunc ac rutrum
+                                    nulla. Nulla maximus
+                                    dolor in quam euismod ac viverra libero aliquet.</p>
+                                <div class="testimonial-meta">
+                                    - John Doe -
+                                    <span>head of marketing, TB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tst-thumb">
+                                <img class="circle" src="./img/a1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Vestibulum varius fermentum risus vitae lacinia neque auctor nec. Nunc ac rutrum
+                                    nulla. Nulla maximus
+                                    dolor in quam euismod ac viverra libero aliquet.</p>
+                                <div class="testimonial-meta">
+                                    - Linda Smith -
+                                    <span>CEO, TB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- JQUERY 3.5 -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -629,6 +687,25 @@
     <script src="./js/jquery.countup.js"></script>
     <script>
         $('.counter').countUp();
+    </script>
+
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.testimonial__carousel').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            navSpeed: 100,
+            responsive: {
+                0: {
+                    items: 3,
+                },
+                1200: {
+                    items: 1,
+                },
+            }
+        });
     </script>
 
     <!-- MAIN JS -->
