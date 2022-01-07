@@ -1398,4 +1398,41 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   font-size: 14px;
   font-weight: normal;
 }
+
+.backToTop {
+  text-decoration: none !important;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.backToTop:hover {
+  background: #d6b161;
+  color: #323232;
+  outline: 0;
+}
+
+.lift-off {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  line-height: 40px;
+}
+
+.lift-off_show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */

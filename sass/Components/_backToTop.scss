@@ -1,0 +1,31 @@
+.backToTop {
+    text-decoration: none !important;
+    visibility: hidden;
+    opacity: 0;
+    &:hover {
+        background: $color-yellow-0;
+        color: $color-black-4;
+        outline: 0;
+    }
+}
+.lift-off {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+    text-align: center;
+    color: $color-white-0;
+    background: $color-black-24;
+    line-height: $line-height-4 + 10;
+}
+.lift-off_show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
