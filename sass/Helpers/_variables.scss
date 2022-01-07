@@ -4,9 +4,11 @@ $color-black-1: #1b1b1b;
 $color-black-2: #222222;
 $color-black-3: #333333;
 $color-black-4: #323232;
+$color-black-5: #434343;
 $color-black-20: rgba(0, 0, 0, 0.1);
 $color-black-21: rgba(0, 0, 0, 0.5);
 $color-black-22: rgba(0, 0, 0, 0.7);
+$color-black-23: rgba(34, 34, 34, 0.05);
 $color-gray-0: #bbb;
 $color-gray-1: #a9a8a8;
 $color-gray-2: #a4a4a4;
@@ -40,6 +42,7 @@ $fs-7: 20px;
 $fs-8: 26px;
 $fs-9: 30px;
 $fs-10: 60px;
+$fs-11: 36px;
 
 // font-weight
 $fw-0: normal;
@@ -78,6 +81,8 @@ $pd-4: 20px;
 $pd-5: 30px;
 $pd-6: 32px;
 $pd-7: 100px;
+$pd-8: 70px;
+$pd-9: 35px;
 
 // break-point
 $breakpoints: (

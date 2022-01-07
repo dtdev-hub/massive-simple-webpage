@@ -1,0 +1,68 @@
+.massiveTabs {
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("../img/pattern-2.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    .section-container {
+        .section-row {
+            .massiveTabs__content {
+                padding-right: $pd-5;
+                padding-left: $pd-5;
+                .massiveTabs__ul {
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    list-style: none;
+                    .nav-item {
+                        position: relative;
+                        display: block;
+                        .nav-link {
+                            position: relative;
+                            display: block;
+                            padding: $pd-9 $pd-8;
+                            transition: all 0.3s ease;
+                            color: $color-black-5;
+                            border-radius: 0;
+                            background: $color-black-23;
+                            i {
+                                font-size: $fs-11;
+                            }
+                            &::after {
+                                position: absolute;
+                                bottom: -10px;
+                                left: 50%;
+                                width: 0;
+                                height: 0;
+                                margin-left: -10px;
+                                content: "";
+                                transition: all 0.3s ease;
+                                opacity: 0;
+                                border-width: 10px 10px 0 10px;
+                                border-style: solid;
+                                border-color: $color-white-0 transparent transparent transparent;
+                            }
+                            &.active {
+                                color: $color-black-2;
+                                background: $color-white-0;
+                                &::after {
+                                    transition: all 0.3s ease;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                    .nav-li-normal {
+                        margin-left: 20px;
+                    }
+                }
+                .panel-body {
+                    padding: $pd-5 0;
+                    .tab-pane {
+                        line-height: $line-height-4;
+                    }
+                }
+            }
+        }
+    }
+}

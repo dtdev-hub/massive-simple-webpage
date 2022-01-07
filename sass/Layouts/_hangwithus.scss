@@ -5,9 +5,7 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
-    .row {
-        margin-right: -$mg-3;
-        margin-left: -$mg-3;
+    .section-row {
         .heading-title span.heading-sub-title,
         .heading-title-alt span.heading-sub-title {
             letter-spacing: 3px;
