@@ -34,6 +34,13 @@ body {
   line-height: 1.5;
 }
 
+body hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
 body .dark-bg {
   background: #1b1b1b;
 }
@@ -131,6 +138,10 @@ body .m-bot-80 {
 
 body .p-tb-100 {
   padding: 100px 0;
+}
+
+.owl-carousel .owl-theme .owl-dots .owl-dot span {
+  background: #eaeaea !important;
 }
 
 header {
@@ -1020,6 +1031,22 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   display: block;
   color: #7f7f7f;
   font-size: 12px;
+}
+
+.massiveClients .massiveClients__content {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.massiveClients .massiveClients__content #clients-1 .item {
+  margin: 20px;
+}
+
+.massiveClients .massiveClients__content #clients-1 .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
 }
 
 .button--yellow {

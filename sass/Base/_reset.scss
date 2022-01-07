@@ -10,6 +10,12 @@ body {
     font-size: $fs-5;
     font-weight: $fw-2;
     line-height: $line-height-1;
+    hr {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;
+        border-top: 1px solid $color-white-4;
+    }
     .dark-bg {
         background: $color-black-1;
     }

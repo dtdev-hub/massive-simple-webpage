@@ -1,0 +1,15 @@
+.massiveClients {
+    .massiveClients__content {
+        padding-right: $pd-5;
+        padding-left: $pd-5;
+        #clients-1 .item {
+            margin: $mg-4;
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border: 0;
+            }
+        }
+    }
+}
