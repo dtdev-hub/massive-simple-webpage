@@ -1089,6 +1089,11 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   opacity: 1;
 }
 
+.massiveTabs .section-container .section-row .massiveTabs__content .massiveTabs__ul .nav-item .nav-link:hover {
+  color: #222222;
+  background: #ffffff;
+}
+
 .massiveTabs .section-container .section-row .massiveTabs__content .massiveTabs__ul .nav-li-normal {
   margin-left: 20px;
 }

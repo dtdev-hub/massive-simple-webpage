@@ -50,6 +50,10 @@
                                     opacity: 1;
                                 }
                             }
+                            &:hover{
+                                color: $color-black-2;
+                                background: $color-white-0;
+                            }
                         }
                     }
                     .nav-li-normal {
