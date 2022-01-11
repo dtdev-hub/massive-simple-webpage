@@ -184,7 +184,6 @@ body .p-tb-100 {
 
 header {
   position: absolute;
-  z-index: 1200;
   top: 0;
   width: 100%;
   background-color: #000000;
@@ -260,6 +259,37 @@ header .navbar .container-fluid .menuzord .menuzord-menu li.active a {
 
 header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #d6b161;
+}
+
+#headerTop {
+  z-index: 1200;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#headerFixed {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+#headerFixed .navbar {
+  margin: 0;
+  padding: 0;
+}
+
+#headerFixed .navbar .container-fluid .menuzord .logo-brand {
+  float: left;
+  margin-right: 30px;
+  color: #666;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  line-height: 60px;
+}
+
+#headerFixed .navbar .container-fluid .menuzord .menuzord-menu li a {
+  line-height: 60px;
 }
 
 .massiveCarousel {

@@ -1,6 +1,5 @@
 header {
     position: absolute;
-    z-index: 1200;
     top: 0;
     width: 100%;
     background-color: $color-black-0;
@@ -55,6 +54,39 @@ header {
                         }
                         &:hover a {
                             color: $color-yellow-0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#headerTop{
+    z-index: 1200;
+    transition: .3s ease-in-out;
+}
+#headerFixed{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    .navbar{
+        margin: 0;
+        padding: 0;
+        .container-fluid{
+            .menuzord{
+                .logo-brand {
+                    float: left;
+                    margin-right: 30px;
+                    color: #666;
+                    font-size: 20px;
+                    font-weight: 600;
+                    height: 60px;
+                    line-height: 60px;
+                }
+                .menuzord-menu{
+                    li{
+                        a{
+                            line-height: 60px;
                         }
                     }
                 }
