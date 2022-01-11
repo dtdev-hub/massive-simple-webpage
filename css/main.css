@@ -148,6 +148,40 @@ body .p-tb-100 {
   background: #eaeaea !important;
 }
 
+.massiveShowcase .portfolio .portfolio-item #portfolio-img-7-carousel.slides .owl-dots, .massiveShowcase .portfolio .portfolio-item #portfolio-img-8-carousel.slides .owl-dots {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  bottom: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.massiveShowcase .portfolio .portfolio-item #portfolio-img-7-carousel.slides .owl-dots .owl-dot, .massiveShowcase .portfolio .portfolio-item #portfolio-img-8-carousel.slides .owl-dots .owl-dot {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+}
+
+.massiveShowcase .portfolio .portfolio-item #portfolio-img-7-carousel.slides .owl-dots .owl-dot span, .massiveShowcase .portfolio .portfolio-item #portfolio-img-8-carousel.slides .owl-dots .owl-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  text-indent: -9999px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.massiveShowcase .portfolio .portfolio-item #portfolio-img-7-carousel.slides .owl-dots .owl-dot.active span, .massiveShowcase .portfolio .portfolio-item #portfolio-img-8-carousel.slides .owl-dots .owl-dot.active span {
+  background-color: #ffffff;
+}
+
 header {
   position: absolute;
   z-index: 1200;
@@ -646,6 +680,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   width: 100%;
   padding: 100px 0;
   margin-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .massiveShowcase .section-container .section-row .massiveShowcase__top {
@@ -654,31 +689,159 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   margin-bottom: 20px;
 }
 
-.massiveShowcase .portfolio-filter {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.massiveShowcase .portfolio-filter li {
-  display: inline-block;
-}
-
-.massiveShowcase .portfolio-filter li a {
+.massiveShowcase #filters button {
+  border: none;
+  background-color: transparent;
   margin: 0 15px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #a9a8a8;
   font-size: 14px;
+}
+
+.massiveShowcase #filters button.is-checked {
+  color: #222222;
+}
+
+.massiveShowcase .portfolio {
+  margin: 50px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.massiveShowcase .portfolio .portfolio-item {
+  float: left;
+  width: 24.98%;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb {
+  position: relative;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: 0;
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .action-btn {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: translateY(45%);
+          transform: translateY(45%);
+  text-align: center;
+  opacity: 0;
+  font-size: 35px;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .action-btn a {
+  text-align: center;
+  color: #222222;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+  opacity: 0;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description h4 {
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description h4 a {
+  text-align: center;
+  color: #222222;
   text-decoration: none;
 }
 
-.massiveShowcase .portfolio-filter li:hover a {
-  color: #000000;
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description h4 a:hover {
+  color: #d6b161;
 }
 
-.massiveShowcase .portfolio-filter li.active a {
-  color: #000000;
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description p {
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #757575;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description p a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-hover .portfolio-description p a:hover {
+  color: #d6b161;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-7-carousel.slides,
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-8-carousel.slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-7-carousel.slides li,
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-8-carousel.slides li {
+  list-style: none;
+}
+
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-7-carousel.slides li a,
+.massiveShowcase .portfolio .portfolio-item .thumb .portfolio-slider-alt #portfolio-img-8-carousel.slides li a {
+  text-decoration: none !important;
+}
+
+.massiveShowcase .portfolio .portfolio-item:hover .portfolio-hover {
+  opacity: 1;
+  z-index: 11;
+}
+
+.massiveShowcase .portfolio .portfolio-item:hover .portfolio-hover .action-btn {
+  top: 40%;
+  margin-top: -55px;
+  opacity: 1;
+}
+
+.massiveShowcase .portfolio .portfolio-item:hover .portfolio-hover .portfolio-description {
+  bottom: 45%;
+  margin-bottom: -90px;
+  opacity: 1;
 }
 
 .massiveTeam .massiveTeam__member {

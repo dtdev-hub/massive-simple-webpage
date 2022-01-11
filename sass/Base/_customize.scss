@@ -9,3 +9,42 @@
         }
     }
 }
+.massiveShowcase{
+    .portfolio{
+        .portfolio-item{
+            #portfolio-img-7-carousel.slides, #portfolio-img-8-carousel.slides{
+                .owl-dots{
+                    position: absolute;
+                    z-index: 10;
+                    right: 15px;
+                    bottom: 15px;
+                    margin: 0;
+                    text-align: center;
+                    .owl-dot{
+                        display: block;
+                        float: left;
+                        width: 10px;
+                        height: 10px;
+                        margin: 0 3px;
+                        span{
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            cursor: pointer;
+                            transition: all .3s ease-in-out;
+                            text-indent: -9999px;
+                            border: 1px solid #fff;
+                            border-radius: 50%;
+                            background-color: transparent;
+                        }
+                        &.active{
+                            span{
+                                background-color: $color-white-0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

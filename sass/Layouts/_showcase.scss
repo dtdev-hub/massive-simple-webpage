@@ -3,6 +3,7 @@
     width: 100%;
     padding: 100px 0;
     margin-bottom: 0;
+    padding-bottom: 0 !important;
     .section-container {
         .section-row {
             .massiveShowcase__top {
@@ -12,27 +13,131 @@
             }
         }
     }
-    .portfolio-filter {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        li {
-            display: inline-block;
-            a {
-                margin: 0 $mg-3;
-                letter-spacing: 3px;
-                text-transform: uppercase;
-                color: $color-gray-1;
-                font-size: $fs-4;
-                text-decoration: none;
-            }
-            &:hover a {
-                color: $color-black-0;
-            }
+    #filters{
+        button{
+            border: none;
+            background-color: transparent;
+            margin: 0 $mg-3;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: $color-gray-1;
+            font-size: $fs-4;
         }
-        li.active {
-            a {
-                color: $color-black-0;
+        button.is-checked{
+            color: $color-black-2;
+        }
+    }
+    .portfolio{
+        margin: 50px 0;
+        display: inline-block;
+        width: 100%;
+        .portfolio-item{
+            float: left;
+            width: 24.98%;
+            .thumb{
+                position: relative;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+                .portfolio-hover{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: 0;
+                    transition: all .3s;
+                    opacity: 0;
+                    border: 20px solid $color-black-20;
+                    background-color: $color-white-20;
+                    .action-btn{
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        transition: all .3s;
+                        transform: translateY(45%);
+                        text-align: center;
+                        opacity: 0;
+                        font-size: 35px;
+                        a{
+                            text-align: center;
+                            color: $color-black-2;
+                        }
+                    }
+                    .portfolio-description{
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        transition: all .3s;
+                        transform: translateY(-55%);
+                        opacity: 0;
+                        h4{
+                            margin-bottom: 5px;
+                            letter-spacing: 4px;
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            text-align: center;
+                            a{
+                                text-align: center;
+                                color: $color-black-2;
+                                text-decoration: none;
+                                &:hover{
+                                    color: $color-yellow-0;
+                                }
+                            }
+                        }
+                        p{
+                            margin-bottom: 0;
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            color: #757575;
+                            font-size: 12px;
+                            font-weight: normal;
+                            text-align: center;
+                            a{
+                                color: #757575;
+                                text-decoration: none;
+                                &:hover{
+                                    color: $color-yellow-0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .portfolio-slider-alt{
+                    max-height: 2000px;
+                    transition: all 1s ease;
+                    #portfolio-img-7-carousel.slides,
+                    #portfolio-img-8-carousel.slides{
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .portfolio-hover{
+                    opacity: 1;
+                    z-index: 11;
+                    .action-btn{
+                        top: 40%;
+                        margin-top: -55px;
+                        opacity: 1;
+                    }
+                    .portfolio-description{
+                        bottom: 45%;
+                        margin-bottom: -90px;
+                        opacity: 1;
+                    }
+                }
             }
         }
     }
