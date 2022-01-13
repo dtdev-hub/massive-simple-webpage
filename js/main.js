@@ -80,7 +80,7 @@ $('.clients__carousel').owlCarousel({
   navSpeed: 100,
   responsive: {
     0: {
-      items: 3,
+      items: 6,
     },
   }
 });
