@@ -155,4 +155,33 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .section-container {
+            .heading-title-alt {
+                h3 {
+                    font-size: $fs-6;
+                }
+                .half-txt {
+                    width: 80%;
+                }
+            }
+            .massiveTeam__hiring {
+                .promo-box {
+                    .promo-info {
+                        padding-right: 0;
+                    }
+                    .promo-btn {
+                        position: relative;
+                        top: 0;
+                        right: 0;
+                        margin-top: 20px;
+                        a {
+                            font-size: $fs-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1138,6 +1138,27 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background: #d6b161;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveTeam .section-container .heading-title-alt h3 {
+    font-size: 18px;
+  }
+  .massiveTeam .section-container .heading-title-alt .half-txt {
+    width: 80%;
+  }
+  .massiveTeam .section-container .massiveTeam__hiring .promo-box .promo-info {
+    padding-right: 0;
+  }
+  .massiveTeam .section-container .massiveTeam__hiring .promo-box .promo-btn {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+  .massiveTeam .section-container .massiveTeam__hiring .promo-box .promo-btn a {
+    font-size: 12px;
+  }
+}
+
 .massiveHangWithUs {
   padding: 150px 0;
   background-image: url("../img/8--gIdSI5.jpg") !important;
