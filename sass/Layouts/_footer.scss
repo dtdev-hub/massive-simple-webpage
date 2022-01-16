@@ -81,6 +81,27 @@
             }
         }
     }
+    // responsive
+    @include responsive("large") {
+        .primary-footer {
+            .footer__item {
+                .f-list {
+                    margin-bottom: $mg-10 !important;
+                }
+            }
+        }
+        .secondary-footer {
+            .footer__secondary__item {
+                .social-link.circle {
+                    float: left !important;
+                    margin-top: $mg-1;
+                    a {
+                        margin: 0 $mg-3 0 0;
+                    }
+                }
+            }
+        }
+    }
 }
 #footer {
     .f-list {

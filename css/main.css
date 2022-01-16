@@ -471,6 +471,19 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background: #5a5a5a;
 }
 
+@media screen and (max-width: 992px) {
+  #footer.dark .primary-footer .footer__item .f-list {
+    margin-bottom: 40px !important;
+  }
+  #footer.dark .secondary-footer .footer__secondary__item .social-link.circle {
+    float: left !important;
+    margin-top: 10px;
+  }
+  #footer.dark .secondary-footer .footer__secondary__item .social-link.circle a {
+    margin: 0 15px 0 0;
+  }
+}
+
 #footer .f-list {
   margin: 0;
   padding: 0;
@@ -1633,6 +1646,19 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #ffffff;
   border: 1px solid transparent;
   background: #5a5a5a;
+}
+
+@media screen and (max-width: 992px) {
+  #footer.dark .primary-footer .footer__item .f-list {
+    margin-bottom: 40px !important;
+  }
+  #footer.dark .secondary-footer .footer__secondary__item .social-link.circle {
+    float: left !important;
+    margin-top: 10px;
+  }
+  #footer.dark .secondary-footer .footer__secondary__item .social-link.circle a {
+    margin: 0 15px 0 0;
+  }
 }
 
 #footer .f-list {
