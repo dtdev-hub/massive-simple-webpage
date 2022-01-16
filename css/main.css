@@ -111,6 +111,12 @@ body .half-txt {
   line-height: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  body .half-txt {
+    width: 80%;
+  }
+}
+
 body .inline-block {
   display: inline-block;
   width: 100%;
@@ -1314,6 +1320,15 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
 .massiveBlog .section-row .post-list-aside .post-single .post-cat {
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .massiveBlog .section-row .heading-title-alt h3 {
+    font-size: 18px;
+  }
+  .massiveBlog .section-row .post-list-aside .post-single {
+    display: block !important;
+  }
 }
 
 .massiveTabs {

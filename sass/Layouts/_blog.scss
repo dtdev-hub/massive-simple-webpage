@@ -111,4 +111,19 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .section-row {
+            .heading-title-alt {
+                h3 {
+                    font-size: $fs-6;
+                }
+            }
+            .post-list-aside {
+                .post-single {
+                    display: block !important;
+                }
+            }
+        }
+    }
 }
