@@ -702,23 +702,27 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   padding: 0 30px;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight h4 {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space {
+  padding: 0 30px;
+}
+
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space h4 {
   margin: 0 0 30px 0;
   font-weight: normal;
   line-height: 1.5;
   letter-spacing: 2px;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight p {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space p {
   margin: 0 0 30px;
   line-height: 30px;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .p-top-30 {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space .p-top-30 {
   padding-top: 30px;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .p-top-30 .massive-progress {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space .p-top-30 .massive-progress {
   overflow: visible;
   height: 20px;
   margin-top: 10px;
@@ -732,7 +736,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   font-weight: 400;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space .p-top-30 .massive-progress .progress-bar {
   width: 80%;
   position: relative;
   overflow: visible;
@@ -749,7 +753,7 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 20px;
 }
 
-.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .p-top-30 .massive-progress .progress-bar span {
+.massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight .space .p-top-30 .massive-progress .progress-bar span {
   position: absolute;
   top: -28px;
   right: -5px;

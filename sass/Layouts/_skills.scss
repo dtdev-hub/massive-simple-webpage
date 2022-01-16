@@ -54,57 +54,60 @@
                 }
                 .bodySkills__itemRight {
                     padding: 0 $pd-5;
-                    h4 {
-                        margin: 0 0 $mg-5 0;
-                        font-weight: $fw-0;
-                        line-height: 1.5;
-                        letter-spacing: 2px;
-                    }
-                    p {
-                        margin: 0 0 $mg-5;
-                        line-height: $line-height-4;
-                    }
-                    .p-top-30 {
-                        padding-top: $pd-5;
-                        .massive-progress {
-                            overflow: visible;
-                            height: 20px;
-                            margin-top: $mg-1;
-                            margin-bottom: $mg-7;
-                            letter-spacing: 1px;
-                            text-transform: uppercase;
-                            border-radius: 0;
-                            background: $color-gray-8;
-                            box-shadow: none;
-                            font-weight: $fw-2;
-                            .progress-bar {
-                                width: 80%;
-                                position: relative;
+                    .space {
+                        padding: 0 $pd-5;
+                        h4 {
+                            margin: 0 0 $mg-5 0;
+                            font-weight: $fw-0;
+                            line-height: 1.5;
+                            letter-spacing: 2px;
+                        }
+                        p {
+                            margin: 0 0 $mg-5;
+                            line-height: $line-height-4;
+                        }
+                        .p-top-30 {
+                            padding-top: $pd-5;
+                            .massive-progress {
                                 overflow: visible;
-                                box-sizing: border-box;
-                                padding-top: 0;
-                                padding-left: $pd-2;
-                                text-align: left;
-                                color: $color-black-2;
-                                background: $color-white-0;
+                                height: 20px;
+                                margin-top: $mg-1;
+                                margin-bottom: $mg-7;
+                                letter-spacing: 1px;
+                                text-transform: uppercase;
+                                border-radius: 0;
+                                background: $color-gray-8;
                                 box-shadow: none;
-                                font-size: $fs-1;
-                                line-height: $line-height-2;
-                                span {
-                                    position: absolute;
-                                    top: -28px;
-                                    right: -5px;
-                                    display: inline-block;
-                                    min-width: 25px;
-                                    height: 20px;
-                                    padding: 0 $pd-2 - 2;
-                                    text-align: center;
-                                    letter-spacing: 0;
-                                    border-radius: 30px;
-                                    line-height: $line-height-2;
-
+                                font-weight: $fw-2;
+                                .progress-bar {
+                                    width: 80%;
+                                    position: relative;
+                                    overflow: visible;
+                                    box-sizing: border-box;
+                                    padding-top: 0;
+                                    padding-left: $pd-2;
+                                    text-align: left;
                                     color: $color-black-2;
-                                    background-color: $color-gray-2;
+                                    background: $color-white-0;
+                                    box-shadow: none;
+                                    font-size: $fs-1;
+                                    line-height: $line-height-2;
+                                    span {
+                                        position: absolute;
+                                        top: -28px;
+                                        right: -5px;
+                                        display: inline-block;
+                                        min-width: 25px;
+                                        height: 20px;
+                                        padding: 0 $pd-2 - 2;
+                                        text-align: center;
+                                        letter-spacing: 0;
+                                        border-radius: 30px;
+                                        line-height: $line-height-2;
+
+                                        color: $color-black-2;
+                                        background-color: $color-gray-2;
+                                    }
                                 }
                             }
                         }
