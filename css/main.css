@@ -1775,6 +1775,12 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   outline: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .backToTop {
+    display: none;
+  }
+}
+
 .lift-off {
   position: fixed;
   right: 20px;
