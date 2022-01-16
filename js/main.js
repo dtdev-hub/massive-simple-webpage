@@ -36,8 +36,9 @@ window.onscroll = function () {
   var headerLogo = document.getElementById("headerTop__logo");
   var headerNavbarBrand = document.getElementById("header-navbar-nav");
   var elems = headerNavbarBrand.getElementsByTagName("a");
+  var viewportWidth = $(window).width();
 
-  if (window.width() > 768) {
+  if (viewportWidth > 768) {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       navbarBrand.style.lineHeight = "60px";
       navbarBrand.style.height = "60px";
