@@ -226,6 +226,8 @@ header .navbar .container-fluid .menuzord #header-navbar-brand.logo-brand {
   font-size: 20px;
   font-weight: 400;
   line-height: 100px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 header .navbar .container-fluid .menuzord #header-navbar-brand.logo-brand #headerTop__logo {
@@ -237,6 +239,8 @@ header .navbar .container-fluid .menuzord #header-navbar-brand.logo-brand #heade
   border: none;
   height: 96px;
   width: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 header .navbar .container-fluid .menuzord .menuzord-menu {
@@ -267,6 +271,44 @@ header .navbar .container-fluid .menuzord .menuzord-menu li.active a {
 
 header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #d6b161;
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar .container-fluid .menuzord {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .navbar .container-fluid .menuzord #header-navbar-brand.logo-brand {
+    font-size: 20px;
+    line-height: 2.55;
+    height: 50px;
+  }
+  header .navbar .container-fluid .menuzord #header-navbar-brand.logo-brand #headerTop__logo {
+    height: 48px;
+  }
+  header .navbar .container-fluid .menuzord .navbar-toggler em {
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 3.5px 0 0;
+    background: #ffffff;
+  }
+  header .navbar .container-fluid .menuzord .menuzord-menu li {
+    background-color: #ffffff;
+  }
+  header .navbar .container-fluid .menuzord .menuzord-menu li a {
+    display: block;
+    width: 100%;
+    color: #000000;
+    border-top: solid 1px #f0f0f0;
+    border-bottom: solid 1px #f0f0f0;
+    line-height: 20px;
+    padding: 12px 20px !important;
+  }
+  header .navbar .container-fluid .menuzord .menuzord-menu li.nav-item-to-hide {
+    display: none;
+  }
 }
 
 .massiveCarousel {

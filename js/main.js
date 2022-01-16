@@ -37,23 +37,31 @@ window.onscroll = function () {
   var headerNavbarBrand = document.getElementById("header-navbar-nav");
   var elems = headerNavbarBrand.getElementsByTagName("a");
 
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (window.width() > 768) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      navbarBrand.style.lineHeight = "60px";
+      navbarBrand.style.height = "60px";
+      headerLogo.style.height = "60px";
+      for (var i = 0; i < elems.length; i++) {
+        elems[i].style.lineHeight = "60px";
+      }
+    } else {
+      navbarBrand.style.lineHeight = "$line-height-7";
+      navbarBrand.style.height = "100px";
+      headerLogo.style.height = "96px";
+      for (var i = 0; i < elems.length; i++) {
+        elems[i].style.lineHeight = "$line-height-7";
+      }
+    }
+  } else {
     navbarBrand.style.lineHeight = "60px";
     navbarBrand.style.height = "60px";
     headerLogo.style.height = "60px";
     for (var i = 0; i < elems.length; i++) {
       elems[i].style.lineHeight = "60px";
     }
-  } else {
-    navbarBrand.style.lineHeight = "$line-height-7";
-    navbarBrand.style.height = "100px";
-    headerLogo.style.height = "96px";
-    for (var i = 0; i < elems.length; i++) {
-      elems[i].style.lineHeight = "$line-height-7";
-    }
   }
 }
-
 // Owl Carousel
 $('.testimonial__carousel').owlCarousel({
   loop: true,

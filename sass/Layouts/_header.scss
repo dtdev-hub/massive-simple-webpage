@@ -26,6 +26,7 @@ header {
                     margin-right: $mg-5;
                     @include styleText($color-gray-10, $fs-7, $fw-2);
                     line-height: $line-height-7;
+                    transition: 0.3s ease-in-out;
                     #headerTop__logo {
                         position: relative;
                         top: -2px;
@@ -35,6 +36,7 @@ header {
                         border: none;
                         height: 96px;
                         width: auto;
+                        transition: 0.3s ease-in-out;
                     }
                 }
                 .menuzord-menu {
@@ -57,6 +59,53 @@ header {
                         }
                         &:hover a {
                             color: $color-yellow-0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // responsive
+    @include responsive("medium") {
+        .navbar {
+            .container-fluid {
+                .menuzord {
+                    justify-content: space-between;
+                    #header-navbar-brand.logo-brand {
+                        font-size: $fs-7;
+                        line-height: 2.55;
+                        height: 50px;
+                        #headerTop__logo {
+                            height: 48px;
+                        }
+                    }
+                    .navbar-toggler {
+                        // span {
+                        //     color: $color-white-0;
+                        // }
+                        em {
+                            display: block;
+                            width: 20px;
+                            height: 3px;
+                            margin: 3.5px 0 0;
+                            background: $color-white-0;
+                        }
+                    }
+                    .menuzord-menu {
+                        li {
+                            background-color: $color-white-0;
+                            a {
+                                display: block;
+                                width: 100%;
+                                color: $color-black-0;
+                                border-top: solid 1px $color-white-1;
+                                border-bottom: solid 1px $color-white-1;
+                                line-height: $line-height-2;
+                                padding: $pd-2 + 2 $pd-4 !important;
+                            }
+                        }
+                        li.nav-item-to-hide {
+                            display: none;
                         }
                     }
                 }
