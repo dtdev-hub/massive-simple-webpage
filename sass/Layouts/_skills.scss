@@ -113,4 +113,28 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .bodySkills__content {
+            .dark-overlay {
+                display: none;
+            }
+            .section-container {
+                .section-row {
+                    .bodySkills__itemLeft {
+                        .v-middle {
+                            h3 {
+                                font-size: $fs-6;
+                            }
+                        }
+                    }
+                    .bodySkills__itemRight {
+                        h4 {
+                            font-size: $fs-6;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

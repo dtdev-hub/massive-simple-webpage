@@ -746,6 +746,18 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   background-color: #a4a4a4;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveSkills .bodySkills__content .dark-overlay {
+    display: none;
+  }
+  .massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemLeft .v-middle h3 {
+    font-size: 18px;
+  }
+  .massiveSkills .bodySkills__content .section-container .section-row .bodySkills__itemRight h4 {
+    font-size: 18px;
+  }
+}
+
 .massiveShowcase {
   display: inline-block;
   width: 100%;
