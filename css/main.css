@@ -1464,6 +1464,12 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveNumbers .massiveNumbers__item .fun-factor.alt {
+    padding: 30px 0;
+  }
+}
+
 .massiveTestimonial .section-row .massiveTestimonial__content {
   padding-right: 30px;
   padding-left: 30px;

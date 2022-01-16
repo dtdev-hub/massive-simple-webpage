@@ -30,4 +30,12 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .massiveNumbers__item {
+            .fun-factor.alt {
+                padding: $pd-5 0;
+            }
+        }
+    }
 }
