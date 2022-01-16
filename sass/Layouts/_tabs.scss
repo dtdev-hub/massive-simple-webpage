@@ -50,7 +50,7 @@
                                     opacity: 1;
                                 }
                             }
-                            &:hover{
+                            &:hover {
                                 color: $color-black-2;
                                 background: $color-white-0;
                             }
@@ -64,6 +64,30 @@
                     padding: $pd-5 0;
                     .tab-pane {
                         line-height: $line-height-4;
+                    }
+                }
+            }
+        }
+    }
+    // responsive
+    @include responsive("medium") {
+        .section-container {
+            .section-row {
+                .massiveTabs__content {
+                    .massiveTabs__ul {
+                        .nav-item {
+                            width: 100%;
+                            margin-left: 0;
+                            margin-bottom: 10px;
+                            text-align: center;
+                        }
+                    }
+                    .tab-content {
+                        .heading-title-alt {
+                            h2 {
+                                font-size: $fs-7;
+                            }
+                        }
                     }
                 }
             }

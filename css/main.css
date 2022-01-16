@@ -1415,6 +1415,18 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   line-height: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveTabs .section-container .section-row .massiveTabs__content .massiveTabs__ul .nav-item {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .massiveTabs .section-container .section-row .massiveTabs__content .tab-content .heading-title-alt h2 {
+    font-size: 20px;
+  }
+}
+
 .massiveNumbers .massiveNumbers__item {
   padding-right: 30px;
   padding-left: 30px;
