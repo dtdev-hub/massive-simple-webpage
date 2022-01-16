@@ -16,4 +16,14 @@
             text-decoration: none;
         }
     }
+    // resposive
+    @include responsive("medium") {
+        .section-row {
+            .heading-title-alt {
+                h1 {
+                    font-size: $fs-8;
+                }
+            }
+        }
+    }
 }

@@ -1179,6 +1179,12 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveHangWithUs .section-row .heading-title-alt h1 {
+    font-size: 26px;
+  }
+}
+
 .massiveBlog .section-row .post-list-aside {
   display: inline-block;
   width: 100%;
@@ -1690,6 +1696,12 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   padding: 15px 30px;
   font-size: 14px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-medium {
+    font-size: 12px;
+  }
 }
 
 .backToTop {

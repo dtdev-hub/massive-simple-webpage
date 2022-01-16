@@ -28,4 +28,7 @@
     padding: $pd-3 $pd-5;
     font-size: $fs-4;
     font-weight: $fw-0;
+    @include responsive("medium") {
+        font-size: $fs-2;
+    }
 }
