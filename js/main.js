@@ -94,8 +94,17 @@ $('.clients__carousel').owlCarousel({
   navSpeed: 100,
   responsive: {
     0: {
-      items: 6,
+      items: 1,
     },
+    498: {
+      items: 2,
+    },
+    768: {
+      items: 3,
+    },
+    1220: {
+      items: 6,
+    }
   }
 });
 $('.portfolio-img-7-carousel').owlCarousel({
