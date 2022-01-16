@@ -76,4 +76,25 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .container-md {
+            .m-bot-80 {
+                .heading-title-alt {
+                    h3 {
+                        font-size: $fs-6;
+                    }
+                    .half-txt {
+                        width: 80%;
+                    }
+                }
+            }
+            .intro__feature {
+                .feature-border-box {
+                    display: inline-block;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
 }

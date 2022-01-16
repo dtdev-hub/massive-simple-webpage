@@ -601,6 +601,19 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   color: #7e7e7e;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveIntro .container-md .m-bot-80 .heading-title-alt h3 {
+    font-size: 18px;
+  }
+  .massiveIntro .container-md .m-bot-80 .heading-title-alt .half-txt {
+    width: 80%;
+  }
+  .massiveIntro .container-md .intro__feature .feature-border-box {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+}
+
 .massiveSkills {
   overflow: hidden;
   width: 100% !important;
