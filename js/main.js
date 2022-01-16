@@ -72,6 +72,12 @@ $('.testimonial__carousel').owlCarousel({
   navSpeed: 100,
   responsive: {
     0: {
+      items: 1,
+    },
+    498: {
+      items: 2,
+    },
+    786: {
       items: 3,
     },
     1200: {
