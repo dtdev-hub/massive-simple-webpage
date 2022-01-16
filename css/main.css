@@ -355,6 +355,15 @@ header .navbar .container-fluid .menuzord .menuzord-menu li:hover a {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .massiveCarousel .container-mid .container .banner-title h1 {
+    font-size: 30px;
+  }
+  .massiveCarousel .container-mid .container .banner-title h3 {
+    font-size: 18px;
+  }
+}
+
 #footer.dark {
   color: #6f7273;
   background: #222222;

@@ -34,4 +34,19 @@
             }
         }
     }
+    // responsive
+    @include responsive("medium") {
+        .container-mid {
+            .container {
+                .banner-title {
+                    h1 {
+                        font-size: $fs-9;
+                    }
+                    h3 {
+                        font-size: $fs-6;
+                    }
+                }
+            }
+        }
+    }
 }
